@@ -13,6 +13,6 @@ public enum Constants {
 	public static Dimension getGameSize() {
 		// Dimension is a mutable class, copy to prevent mutation.
 		return new Dimension(SIZE);
-		System.out.println("Game size: " + SIZE.width + "x" + SIZE.height);
+		System.out.println("Game size: " + SIZE.width + "x" + SIZE.height + "y" + SIZE.height * 10);
 	}
 }
