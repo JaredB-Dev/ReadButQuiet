@@ -61,6 +61,7 @@ public class GameController implements Runnable {
 			@Override
 			public void keyPressed(final KeyEvent event) {
 				enqueueKeyPress(event.getKeyCode());
+				System.out.println("Game size: 7");
 			}
 		};
 
